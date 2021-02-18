@@ -22,7 +22,7 @@ aplicaFlag flag ficheiro
   | flag == "-rc" = show $ applyColor 'r' ficheiro 
   | flag == "-bc" = show $ applyColor 'b' ficheiro 
   | flag == "-gc" = show $ applyColor 'g' ficheiro  
-  | otherwise = "Erro: Flag não reconhecida."
+  | otherwise = "Erro: command option not detected."
 
 
 
